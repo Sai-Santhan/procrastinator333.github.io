@@ -810,14 +810,13 @@ img {
 }
 
 .scrollup__icon {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: #fff;
 }
 
 /* Show scroll */
 .show-scroll {
     bottom: 5rem;
-    right: 5rem;
 }
 /*========== SCROLL BAR ==========*/
 ::-webkit-scrollbar {
@@ -1044,5 +1043,16 @@ img {
     }
     .contact__inputs {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .scrollup {
+        border-radius: 40%;
+    }
+    .show-scroll {
+        bottom: 5rem;
+        right: 5rem;
+    }
+    .scrollup__icon {
+        font-size: 1.75rem;
+        color: #fff;
     }
 }
